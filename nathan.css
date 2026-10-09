@@ -1,0 +1,30 @@
+body {
+        background-color: lightblue;
+    }
+
+
+@keyframes doge {
+  from {background-color: red;}
+  to {background-color: rgb(46, 33, 163);}
+}
+
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: hsl(212, 100%, 50%);
+  animation-name: doge;
+  animation-duration: 1000s;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #5a6160;
+  color: white;
+}
+
+
+.header h1 {
+  font-size: 20px;
+}
