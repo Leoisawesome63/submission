@@ -1,6 +1,9 @@
+/* test
 body {
         background-color: lightblue;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 
@@ -30,8 +33,3 @@ div {
   font-size: 20px;
 }
 
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
