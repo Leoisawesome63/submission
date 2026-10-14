@@ -17,8 +17,8 @@ body {
 }
 
 div {
-    width: 100px;
-    height: 100px;
+    width: 67px;
+    height: 67px;
     background-color: hsl(212, 100%, 50%);
     animation-name: doge;
     animation-duration: 2s;
