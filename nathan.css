@@ -8,17 +8,18 @@ body {
 
 
 @keyframes doge {
-  from {background-color: red;}
-  to {background-color: rgb(46, 33, 163);}
+    from {background-color: red;}
+    to {background-color: rgb(46, 33, 163);}
 }
 
-
 div {
-  width: 100px;
-  height: 100px;
-  background-color: hsl(212, 100%, 50%);
-  animation-name: doge;
-  animation-duration: 1000s;
+    width: 100px;
+    height: 100px;
+    background-color: hsl(212, 100%, 50%);
+    animation-name: doge;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .header {
